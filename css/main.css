@@ -63,7 +63,7 @@ header .wrapper {
 }
 .logo h1 span {
 	color: #fff;
-	font-size: 1.2em;
+	font-size: 1.2em;a
 }
 .nav {
 	margin: 180px 0 50px 0;
@@ -107,8 +107,8 @@ header .wrapper {
     padding: 10px;
     width: 150px;
 }
-.nav-div:hover, .nav-div:focus, .nav-div:active {
-    color: #fff;
+.nav-div:hover, .nav-div:focus, .active {
+    color: #fff !important;
     background: #4d4d4d;
     opacity: 0.8;
     box-shadow: 0 0 8px rgba(0,0,0,0.9);
@@ -141,7 +141,7 @@ header .wrapper {
 	cursor: pointer;
 	text-shadow: 0 0 5px rgba(0,0,0,0.9);
 }
-.about img {
+#about img {
 	display: block;
 	width: 30%;
     float: left;
